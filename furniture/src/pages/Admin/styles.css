@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding:0px
+}
+
+
+.sidebar-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-title img {
+    width: auto;
+    height: 50px;
+}
+

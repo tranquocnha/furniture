@@ -1,0 +1,35 @@
+.user-id{
+    width: auto;
+    height: 50px;
+}
+
+
+
+
+ 
+.btn-edit {
+    width: auto;
+    height: 35px;
+    outline: none;
+    color: white;
+    background: #08979c;
+    font-size: 18px;
+    border-radius: 8px;
+} 
+
+.user-edit i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.user-item td{
+    margin-left: 20px;
+    padding: 0px 10px;
+}
+
+.user-item{
+    text-align: center;
+}
+

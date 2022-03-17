@@ -1,0 +1,52 @@
+.product-thumbnail {
+    width: 250px;
+}
+
+.product-thumbnail img{
+    width: auto;
+    height: 150px;
+    margin: 0px  30px 0px 20px;
+}
+
+.btn-remove {
+    border:2px solid red;
+    color:red;
+    /* width: auto; */
+    width: 35px;
+    height: 35px;
+    outline: none;
+    background: white;
+    
+}
+
+
+.btn-remove button:hover{
+    content: '';
+    border-color: red;
+    color:white;  
+    transition: all ease-in-out 500ms;
+    background: red;
+}
+
+hr{
+    display: none;
+}
+
+.btn-add{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #333;
+    color: white;
+    font-size: 15px;
+    font-weight: 600
+    /* padding: 0.5em 2em; */;
+    padding:0.8em;
+    width: 150px;
+    border: 1px solid #333;
+}
+
+.btn-add:hover{
+    background:white;
+    color: #333;
+    transition: all ease-in 300ms;
+}
